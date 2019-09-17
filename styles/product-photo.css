@@ -1,0 +1,19 @@
+#product-photo-card.card{
+    min-height: 501px;
+    max-height: 501px;
+}
+
+#product-photo-card .card-title {
+    text-align: left;
+    font: 18px/13px 'Roboto';
+    letter-spacing: 0;
+    color: #2D2D2D;
+    opacity: 1;
+}
+
+#product-photo-card {
+    min-width: 382px;
+    margin-right: 20px !important;
+    max-width: 49.75vh;
+    width: auto !important;
+}

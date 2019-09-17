@@ -1,0 +1,36 @@
+header .navbar {
+    height: 9.375vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 6px #0000000F;
+    opacity: 1;
+    z-index: 1030;
+}
+
+.navbar-brand {
+    font-family: Gotham Rounded Light;
+    font-size: 1.125em;
+    letter-spacing: 0;
+    text-align: left;
+    color: #373737;
+    opacity: 1;
+}
+
+.navbar button>span {
+    margin-left: 16px;
+    display: inline-flex;
+    align-items: center;
+    letter-spacing: 0;
+}
+
+.navdrawer button {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.navbar #logout {
+    color: #085CA0 !important;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1em;
+}

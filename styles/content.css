@@ -1,0 +1,204 @@
+@media (min-width: 1366px) {
+    div>#product-photo {
+        margin-top: 18.75vh !important;
+        position: -webkit-sticky;
+        position: fixed;
+        top: 0;
+        z-index: 1019;
+    }
+
+    #product-photo::after {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1019;
+    }
+}
+
+
+@media (min-width: 1140px) {
+    div>#product-photo {
+        margin-top: 18.75vh !important;
+        position: -webkit-sticky;
+        position: fixed;
+        top: 0;
+        z-index: 1019;
+    }
+
+    #product-photo::after {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1019;
+    }
+
+    .float-xl-right{
+        float: right !important;
+    }
+}
+
+div>#product-photo {
+    padding-left: 0;
+    top: 0;
+    z-index: 1019;
+}
+
+div>#product-form {
+    margin-top: 9.375vh !important;
+    margin-bottom: 6.77vh !important;
+    padding-left: 0;
+    top: 0;
+    z-index: 1019;
+}
+
+@media (min-width: 1140px) {
+    .breadcrumb {
+        margin-top: 9.375vh !important;
+        position: -webkit-sticky;
+        position: fixed;
+        top: 0;
+        z-index: 1019;
+    }
+
+}
+
+.breadcrumb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    background-color: inherit;
+    margin-bottom: 0 !important;
+    padding-bottom: 1.25em !important;
+    padding-left: 0;
+    padding-top: 1.625em !important;
+    top: 0;
+    z-index: 1019;
+}
+
+.breadcrumb-item {
+    display: inherit;
+    height: fit-content;
+    vertical-align: inherit;
+    text-align: left;
+    font: 13px/20px Roboto;
+    letter-spacing: 0;
+    color: #979797;
+    opacity: 1;
+}
+
+.breadcrumb-item.active {
+    font: Bold 13px/18px Roboto;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    font-family: "Material Icons";
+    font-size: 16px;
+    content: "\e5cc";
+}
+
+section .row {
+    margin-left: 20px;
+}
+
+section.container {
+    max-width: 100%;
+    width: 100%;
+}
+
+#main div.card-body {
+    padding: 0px;
+}
+
+#main div.card-body .card-title {
+    padding-top: 18px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-bottom: 1.25em;
+    padding-bottom: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D3D3D3;
+    opacity: 1;
+    height: 60px;
+}
+
+#main div.card-body .card-text {
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-bottom: 1.25em;
+}
+
+#product-photo div.card-body .btn {
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-bottom: 1.5em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #3376AD;
+    font: 15px/20px Roboto;
+    border-radius: 2px;
+    border: 1px solid #3376AD;
+    border-radius: 2px;
+    opacity: 1;
+    text-align: center;
+    letter-spacing: 0;
+    color: #3376AD;
+    opacity: 1;
+}
+
+#form-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: right;
+}
+
+#form-buttons .btn {
+    min-height: 48px !important;
+    text-align: center;
+}
+
+#cancel-btn {
+    min-height: 48px !important;
+    font: 15px/20px Roboto;
+    letter-spacing: 0;
+    color: #2D2D2D;
+    opacity: 1;
+    margin-right: 16px !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #3376AD;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+#add-btn {
+    font: Bold 15px/20px Roboto !important;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-right: 10px !important;
+    background: #3376AD 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #00000054;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+#product-photo div.card-body .card-text>.image-rectangle {
+    min-width: 340px;
+    min-height: 340px;
+    width: 340px;
+    height: 340px;
+    display: flex;
+    border: 1px solid #085CA0;
+    opacity: 1;
+    border-radius: 4px;
+}
+
+
+#main .row .card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #00000029;
+    opacity: 1;
+    border-radius: 0px;
+}

@@ -1,0 +1,37 @@
+#product-form-card.card {
+    min-height: 799px;
+    max-height: 799px;
+}
+
+#product-form-card .card-title {
+    text-align: left;
+    font: 18px/13px 'Roboto';
+    letter-spacing: 0;
+    color: #2D2D2D;
+    opacity: 1;
+}
+
+@media (max-width: 1140px) {
+    #product-form-card {
+        margin-right: 4.1vw;
+        width: calc(100 - 54.32%);
+        min-width: 644px !important;
+    }
+}
+
+@media (min-width: 1140px) and (max-width: 1366px) {
+    #product-form-card {
+        margin-right: 4.1vw;
+        min-width: 322px !important;
+        max-width: 40vw !important;
+    }
+}
+
+@media (min-width: 1366px) {
+    #product-form-card {
+        margin-right: 4.1vw;
+        min-width: 644px !important;
+        max-width: 644px !important;
+    }
+}
+
